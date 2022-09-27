@@ -1,0 +1,187 @@
+@import url(//db.onlinewebfonts.com/c/5f2b79faf5661a394901ad7c9129a983?family=LevatoW01-Black);
+body{
+    font-family: sans-serif,"leavato";
+    font-size: 16px;
+}
+:root{
+    --main-color: #36ae65;
+}
+/*
+=======================
+Navbar
+=======================
+*/
+.navbar{
+    border-top: 2px solid var(--main-color);
+    border-bottom: 5px solid var(--main-color);
+    background-color: white !important;
+}
+.navbar-brand{
+    font-size: 2.2rem;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: rgb(35 177 80) !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 1rem;
+}
+.navbar-expand-lg .navbar-nav .nav-item:first-child{
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-item:nth-of-type(1):after{
+    content: "";
+    border-right: 2px solid var(--main-color) ;
+    height: 23px;
+    padding: 0 15px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+/*
+=================
+ Navbar
+=================
+*/
+#banner-intro{
+    background: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+    height: 880px;
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+#banner-intro .banner-caption{
+    position: relative;
+}
+#banner-intro .banner-caption h1{
+    text-transform: capitalize;
+    font-size: 1.8rem;
+}
+#banner-intro .banner-caption h1 span{
+    text-transform: uppercase;
+}
+#banner-intro .banner-caption p{
+    font-size: 1.1rem;
+    margin-top:15px ;
+    padding: 15px 0;
+    font-weight: 500;
+}
+/*#banner-intro .banner-caption .sub-title:before{*/
+/*    content: "";*/
+/*    border-bottom: 2px solid black;*/
+/*    width: 440px;*/
+/*    position: absolute;*/
+/*    top: 20%;*/
+/*    left: 30%;*/
+/*}*/
+/*#banner-intro .banner-caption .sub-title:after{*/
+/*    content: "";*/
+/*    border-bottom: 2px solid black;*/
+/*    width: 440px;*/
+/*    position: absolute;*/
+/*    top: 45%;*/
+/*    left: 30%;*/
+/*}*/
+#banner-intro .banner-caption .banner-content{
+    font-size: 1rem;
+    text-align: left;
+}
+#banner-intro .banner-caption .banner-content span{
+    font-weight: 700;
+}
+#banner-intro .benefits-title h2{
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+#banner-intro .benefits-title img{
+    margin-right: 10px;
+}
+#banner-intro .key-benefits ul{
+    list-style: none;
+}
+#banner-intro .key-benefits ul li{
+    margin-top: 40px;
+    font-size: 1.1rem;
+}
+#banner-intro .key-benefits ul li span{
+    font-size: 1.4rem;
+    color: var(--main-color);
+}
+#banner-intro  .signup-form{
+    background-color: white;
+    padding: 25px;
+    box-shadow:1px 5px 2px black;
+}
+#banner-intro .signup-text h2{
+    font-size: 1rem;
+    color: #00a82d;
+    font-weight: 600;
+}
+#banner-intro .signup-text h2 span{
+    font-size: 1rem;
+    color: #00a82d;
+    font-weight: 800;
+}
+#banner-intro  .signup-text p{
+    font-size: 1rem;
+    text-align: left !important;
+}
+#banner-intro  .signup-form .term p{
+    font-size: 0.8rem;
+    text-align: left !important;
+}
+#banner-intro form #code_phone{
+    display: inline-flex;
+    width: 100%;
+}
+#banner-intro form #code_phone select{
+    width: 20%;
+    padding: 2px;
+}
+#banner-intro form #code_phone #phone_number {
+    width: 80%;
+}
+#banner-intro form .form-group{
+    margin-bottom: 0 !important;
+    margin-top: -15px !important;
+}
+#banner-intro form .form-group #country{
+    margin-bottom: 20px !important;
+}
+
+#banner-intro form .form-group input,#banner-intro form .form-group select{
+    border: 1px solid rgba(204, 204, 204, 0.77) !important;
+}
+#banner-intro form .form-group  .submit{
+    margin-top:25px;
+    width: 80%;
+}
+
+#banner-intro .arrow{
+    margin-top: 10px !important;
+    left: 5%;
+    background: -webkit-linear-gradient(left, #CFB716, #FDE08D, #F6D71D);
+    background: linear-gradient(left, #8f6B29, #FDE08D, #DF9F28);
+    position: relative;
+    z-index: 13;
+    height: 40px;
+    clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+#banner-intro .arrow h2{
+    font-size: 20px;
+    line-height: 37px;
+    margin-left: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+#banner-intro .arrow:after{
+    content: "";
+    border: 14px solid;
+    border-color: #B9A006 transparent transparent #B9A006;
+
+    transform: rotate(135deg);
+    position: absolute;
+    right: -14px;
+    top: 5px;
+}
