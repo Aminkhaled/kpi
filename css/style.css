@@ -199,6 +199,7 @@ features
     font-size: 2.4rem;
     color: var(--main-color);
     padding-bottom: 40px;
+    text-align: center;
 }
 #features .feature-section img{
     padding: 10px 0;
@@ -214,4 +215,86 @@ features
     text-transform: capitalize;
     color: rgba(0, 0, 0, 0.87);
     font-size: 1.2rem;
+}
+
+/**
+==================================
+ contact-us
+==================================
+ */
+#contact-us{
+    padding: 50px;
+    background-color: #323232;
+    margin: 0 30px;
+    border-left: 11px solid #23b150;
+    border-right: 11px solid #23b150;
+}
+#contact-us .contact-info h2 img{
+    margin: 0 5px;
+}
+#contact-us .contact-info h2{
+    font-size: 1.1rem;
+    color: whitesmoke;
+    font-weight: 600;
+}
+#contact-us .contact-info p{
+    margin-left: 35px;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+/**
+==================================
+Copy right
+==================================
+ */
+#copy-right{
+    padding:30px 0 10px 0;
+    text-align: center;
+}
+
+/*
+==============
+editing css of intlTellInput
+==============
+*/
+.iti {
+    width: 100% !important;
+    margin-top: 24px !important;
+}
+
+@media screen and (max-width:480px) {
+    /*
+    Navabar
+    */
+    .navbar-brand{
+        font-size: 0.9rem;
+    }
+    /* banner intro*/
+    #banner-intro{
+        height: auto;
+        padding-bottom: 40px;
+    }
+    #banner-intro .banner-caption h1 {
+        text-transform: capitalize;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    #banner-intro .benefits-title h2 {
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 33px;
+        text-transform: uppercase;
+    }
+    #banner-intro .arrow{
+        bottom: -61%;
+        left: -5px;
+    }
+/*    features*/
+    #features .features-title h1{
+        font-size: 1.6rem;
+    }
+#features .feature-section{
+    text-align: center;
+}
 }
